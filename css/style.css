@@ -1,0 +1,299 @@
+body{
+    font-family: 'Jost', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* home page--------------------------------------- */
+.column-2
+{
+   padding: 100px 30px 100px 30px;
+}
+.heading
+{
+    font-size: 30px;
+}
+.personal-info
+{
+    font-weight: 900;
+    
+}
+.fill-form
+{
+    font-weight: 700;
+    color: #252525;
+}
+
+.quiz-img
+{
+    width: 100%;
+    height: auto;
+   
+ 
+}
+.col-form-label
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* heading------------------------ */
+
+  .waviy {
+    position: relative;
+  }
+  .waviy span {
+
+    text-shadow: 4px 4px 2px #000000;
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFA600;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+/* heading----- */
+
+/* button--------------------- */
+.make-reservation {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #de982e 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .make-reservation:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .make-reservation:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .make-reservation {
+      font-size: 20px;
+      padding: .40rem 2rem;
+    }
+  }
+  /* button end---------------- */
+/* home page  end--------------------------------------- */
+
+/* ques one start here---------------------------------- */
+.page2
+{
+    background-image: url(../img/background2.png); 
+    background-position: center;
+    padding: 50px;
+  
+}
+.ques-section
+{
+    width: 600px;
+    height: 600px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* reservation start here------------------- */
+
+
+
+
+.reserve
+{
+  background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 20px;
+    padding: 40px 40px 40px 40px;
+    border: 5px solid #ffb700;
+   
+ 
+}
+.reserve1
+{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 40px 40px 40px;
+    border: 5px solid #ffb700;
+   
+ 
+}
+.make-reserve
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFC229;
+    text-shadow: 4px 4px 2px #000000;
+}
+
+/* right button--------------------------- */
+.make-reservation {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #FFC229 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 10px;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.make-reservation:hover {
+  background-color: #FFC229;
+  box-shadow: #FFC229 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.make-reservation:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 576px) {
+  .make-reservation {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+/* right button---------------------- */
+
+/* left button---------------------- */
+.make-reservation1 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #FFC229 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 10px;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.make-reservation1:hover {
+  background-color: #FFC229;
+  box-shadow: #FFC229 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.make-reservation1:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 576px) {
+  .make-reservation1 {
+    font-size: 1.5rem;
+    padding: .75rem 3rem;
+  }
+}
+/* left button-------------------- */
+
+
+.form-check
+{
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+    margin: 15px;
+
+}
+.form-check-input
+{
+font-size: 20px;
+color: #FFC229;
+}
+.form-check-label
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+.counting
+{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFC229;
+}
+.main-ques1
+{
+    font-weight: 700;
+    font-size: 45px;
+}
+.make-thanks
+{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+    color: #FFC229;
+    text-shadow: 4px 4px 2px #000000;
+}
+
+
+/* reservation end here------------------- */
+/* ques one start here---------------------------------- */
